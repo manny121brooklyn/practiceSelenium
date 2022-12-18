@@ -4,3 +4,5 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.get('https://www.google.com')
+
+driver.close()
