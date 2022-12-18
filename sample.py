@@ -51,7 +51,9 @@ search = driver.find_element(By.NAME, search_box)
 search.send_keys(search_string)
 btn = driver.find_element(By.NAME, button)
 driver.execute_script('arguments[0].click();', btn)
-
+links = driver.find_elements(By.TAG_NAME, 'a')
+for lnk in links:
+    print(lnk.get_attribute('href'))
 driver.quit()
 
 driver.get('https://www.youtube.com')
