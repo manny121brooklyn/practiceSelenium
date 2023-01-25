@@ -1,0 +1,14 @@
+INFO:root:The application is running task number 5
+INFO:root:The application is running task number 5
+WARNING:root:This is warning message
+ERROR:root:This is error message
+2023-01-22 00:50:31,718  - INFO - The application is running task number 5
+2023-01-22 00:50:31,722  - WARNING - This is warning message
+2023-01-22 00:50:31,722  - ERROR - This is error message
+2023-01-22 00:51:44,862:  INFO: The application is running task number 5:
+2023-01-22 00:51:44,863:  WARNING: This is warning message:
+2023-01-22 00:51:44,863:  ERROR: This is error message:
+2023-01-22 01:01:40,144:  DEBUG: This is debug message:
+2023-01-22 01:01:40,144:  INFO: The application is running task number 5:
+2023-01-22 01:01:40,148:  WARNING: This is warning message:
+2023-01-22 01:01:40,149:  ERROR: This is error message:

@@ -54,6 +54,8 @@ driver.execute_script('arguments[0].click();', btn)
 links = driver.find_elements(By.TAG_NAME, 'a')
 for lnk in links:
     print(lnk.get_attribute('href'))
+print(len(links))
+
 driver.quit()
 
-driver.get('https://www.youtube.com')
+# driver.get('https://www.youtube.com')

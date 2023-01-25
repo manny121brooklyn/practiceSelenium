@@ -1,0 +1,4 @@
+2023-01-22 01:05:46,930:  DEBUG: This is debug message:
+2023-01-22 01:05:46,931:  INFO: The application is running task number 5:
+2023-01-22 01:05:46,932:  WARNING: This is warning message:
+2023-01-22 01:05:46,932:  ERROR: This is error message:
