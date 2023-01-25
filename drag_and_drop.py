@@ -31,7 +31,7 @@ target = 'div2'
 
 
 wait = WebDriverWait(driver, 20)
-f= wait.until(EC.element_to_be_clickable((By.ID, source)))
+f = wait.until(EC.element_to_be_clickable((By.ID, source)))
 t = wait.until(EC.element_to_be_clickable((By.ID, target)))
 move = ActionChains(driver)
 move.drag_and_drop(f, t).perform()
