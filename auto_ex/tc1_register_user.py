@@ -15,8 +15,6 @@ options = Options()
 options.add_argument("--disable-notifications")
 driver = webdriver.Chrome(chrome_options=options)
 
-
-
 # try:
 
 print('Navigate to URL')
